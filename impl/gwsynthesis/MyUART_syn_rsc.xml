@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module name="uart_test" Register="9" Lut="4">
+    <SubModule name="uart" Register="2" Lut="2">
+        <SubModule name="tx_fifo" Register="542" Alu="21" Lut="363"/>
+        <SubModule name="serout_module" Register="29" Lut="55"/>
+        <SubModule name="rx_fifo" Register="542" Alu="21" Lut="363"/>
+        <SubModule name="serin_module" Register="38" Lut="58"/>
+    </SubModule>
+</Module>

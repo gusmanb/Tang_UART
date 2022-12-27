@@ -1,0 +1,74 @@
+[
+ {
+  "InstFile" : "F:/Sipeed/Projects/MyUART/MyUART/src/UART_TEST.v",
+  "InstLine" : 2,
+  "InstName" : "uart_test",
+  "ModuleFile" : "F:/Sipeed/Projects/MyUART/MyUART/src/UART_TEST.v",
+  "ModuleLine" : 2,
+  "ModuleName" : "uart_test",
+  "SubInsts" : [
+   {
+    "InstFile" : "F:/Sipeed/Projects/MyUART/MyUART/src/UART_TEST.v",
+    "InstLine" : 23,
+    "InstName" : "uart",
+    "ModuleFile" : "F:/Sipeed/Projects/MyUART/MyUART/src/UART_MODULE.v",
+    "ModuleLine" : 2,
+    "ModuleName" : "SIMPLE_UART",
+    "SubInsts" : [
+     {
+      "InstFile" : "F:/Sipeed/Projects/MyUART/MyUART/src/UART_MODULE.v",
+      "InstLine" : 33,
+      "InstName" : "tx_fifo",
+      "ModuleFile" : "F:/Sipeed/Projects/MyUART/MyUART/src/fifo_sc_hs/fifo_sc_hs_64_reg_top.v",
+      "ModuleLine" : 3858,
+      "ModuleName" : "fifo_sc_hs_64_reg_top",
+      "SubInsts" : [
+       {
+        "InstFile" : "F:/Sipeed/Projects/MyUART/MyUART/src/fifo_sc_hs/fifo_sc_hs_64_reg_top.v",
+        "InstLine" : 3879,
+        "InstName" : "fifo_sc_hs_inst",
+        "ModuleFile" : "F:/Sipeed/Projects/MyUART/MyUART/src/fifo_sc_hs/fifo_sc_hs_64_reg_top.v",
+        "ModuleLine" : 1,
+        "ModuleName" : "~fifo_sc_hs.fifo_sc_hs_64_reg_top"
+       }
+      ]
+     },
+     {
+      "InstFile" : "F:/Sipeed/Projects/MyUART/MyUART/src/UART_MODULE.v",
+      "InstLine" : 45,
+      "InstName" : "serout_module",
+      "ModuleFile" : "F:/Sipeed/Projects/MyUART/MyUART/src/SERIALIZE_SHIFTER_MODULE.v",
+      "ModuleLine" : 2,
+      "ModuleName" : "SERIALIZE_SHIFTER"
+     },
+     {
+      "InstFile" : "F:/Sipeed/Projects/MyUART/MyUART/src/UART_MODULE.v",
+      "InstLine" : 84,
+      "InstName" : "rx_fifo",
+      "ModuleFile" : "F:/Sipeed/Projects/MyUART/MyUART/src/fifo_sc_hs/fifo_sc_hs_64_reg_top.v",
+      "ModuleLine" : 3858,
+      "ModuleName" : "fifo_sc_hs_64_reg_top",
+      "SubInsts" : [
+       {
+        "InstFile" : "F:/Sipeed/Projects/MyUART/MyUART/src/fifo_sc_hs/fifo_sc_hs_64_reg_top.v",
+        "InstLine" : 3879,
+        "InstName" : "fifo_sc_hs_inst",
+        "ModuleFile" : "F:/Sipeed/Projects/MyUART/MyUART/src/fifo_sc_hs/fifo_sc_hs_64_reg_top.v",
+        "ModuleLine" : 1,
+        "ModuleName" : "~fifo_sc_hs.fifo_sc_hs_64_reg_top"
+       }
+      ]
+     },
+     {
+      "InstFile" : "F:/Sipeed/Projects/MyUART/MyUART/src/UART_MODULE.v",
+      "InstLine" : 96,
+      "InstName" : "serin_module",
+      "ModuleFile" : "F:/Sipeed/Projects/MyUART/MyUART/src/DESERIALIZE_SHIFTER_MODULE.v",
+      "ModuleLine" : 2,
+      "ModuleName" : "DESERIALIZE_SHIFTER"
+     }
+    ]
+   }
+  ]
+ }
+]

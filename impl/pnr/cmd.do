@@ -1,0 +1,11 @@
+-d F:\Sipeed\Projects\MyUART\MyCopy\impl\gwsynthesis\MyUART.vg
+-p GW2A-18-PBGA256-8
+-pn GW2A-LV18PG256C8/I7
+-cst F:\Sipeed\Projects\MyUART\MyCopy\src\UART_TEST_Phy.cst
+-cfg F:\Sipeed\Projects\MyUART\MyCopy\impl\pnr\device.cfg
+-bit
+-tr
+-ph
+-timing
+-cst_error
+-route_maxfan 23

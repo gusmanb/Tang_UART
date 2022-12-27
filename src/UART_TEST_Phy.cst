@@ -1,0 +1,14 @@
+//Configured to use the JTAG usb port of the dock, you can change it
+//if you want to use an external adapter or a real RS-232 line driver like the MAX232
+IO_LOC "tx" M11 exclusive;
+IO_PORT "tx" IO_TYPE=LVTTL33 PULL_MODE=NONE DRIVE=16;
+IO_LOC "rx" T13 exclusive;
+IO_PORT "rx" IO_TYPE=LVTTL33 PULL_MODE=NONE HYSTERESIS=HIGH;
+//Oscillator input
+IO_LOC "clk" H11;
+IO_PORT "clk" IO_TYPE=LVCMOS33 PULL_MODE=UP;
+//Connected to the LED's 3 and 4
+IO_LOC "rxempty" N14;
+IO_PORT "rxempty" IO_TYPE=LVCMOS33 PULL_MODE=UP;
+IO_LOC "txfull" L16;
+IO_PORT "txfull" IO_TYPE=LVCMOS33 PULL_MODE=UP;

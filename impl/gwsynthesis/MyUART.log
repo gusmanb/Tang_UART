@@ -1,0 +1,39 @@
+GowinSynthesis start
+Running parser ...
+Analyzing Verilog file 'F:\Sipeed\Projects\MyUART\MyCopy\src\DESERIALIZE_SHIFTER_MODULE.v'
+Analyzing Verilog file 'F:\Sipeed\Projects\MyUART\MyCopy\src\SERIALIZE_SHIFTER_MODULE.v'
+Analyzing Verilog file 'F:\Sipeed\Projects\MyUART\MyCopy\src\UART_MODULE.v'
+Analyzing Verilog file 'F:\Sipeed\Projects\MyUART\MyCopy\src\UART_TEST.v'
+Analyzing Verilog file 'F:\Sipeed\Projects\MyUART\MyCopy\src\fifo_sc_hs\fifo_sc_hs_64_reg_top.v'
+Compiling module 'uart_test'("F:\Sipeed\Projects\MyUART\MyCopy\src\UART_TEST.v":2)
+Compiling module 'SIMPLE_UART(UART_SRC_CK_FREQ=27000000,UART_BAUDS=115200)'("F:\Sipeed\Projects\MyUART\MyCopy\src\UART_MODULE.v":2)
+Compiling module 'fifo_sc_hs_64_reg_top'("F:\Sipeed\Projects\MyUART\MyCopy\src\fifo_sc_hs\fifo_sc_hs_64_reg_top.v":3858)
+Compiling module '**'("F:\Sipeed\Projects\MyUART\MyCopy\src\fifo_sc_hs\fifo_sc_hs_64_reg_top.v":0)
+Compiling module 'SERIALIZE_SHIFTER(SRC_CLOCK=27000000,BAUDS=115200)'("F:\Sipeed\Projects\MyUART\MyCopy\src\SERIALIZE_SHIFTER_MODULE.v":2)
+WARN  (EX3791) : Expression size 5 truncated to fit in target size 4("F:\Sipeed\Projects\MyUART\MyCopy\src\SERIALIZE_SHIFTER_MODULE.v":65)
+WARN  (EX3791) : Expression size 11 truncated to fit in target size 10("F:\Sipeed\Projects\MyUART\MyCopy\src\SERIALIZE_SHIFTER_MODULE.v":81)
+WARN  (EX3791) : Expression size 11 truncated to fit in target size 10("F:\Sipeed\Projects\MyUART\MyCopy\src\SERIALIZE_SHIFTER_MODULE.v":94)
+Compiling module 'DESERIALIZE_SHIFTER(SRC_CLOCK=27000000,BAUDS=115200)'("F:\Sipeed\Projects\MyUART\MyCopy\src\DESERIALIZE_SHIFTER_MODULE.v":2)
+WARN  (EX3791) : Expression size 5 truncated to fit in target size 4("F:\Sipeed\Projects\MyUART\MyCopy\src\DESERIALIZE_SHIFTER_MODULE.v":76)
+WARN  (EX3791) : Expression size 11 truncated to fit in target size 10("F:\Sipeed\Projects\MyUART\MyCopy\src\DESERIALIZE_SHIFTER_MODULE.v":105)
+WARN  (EX3791) : Expression size 11 truncated to fit in target size 10("F:\Sipeed\Projects\MyUART\MyCopy\src\DESERIALIZE_SHIFTER_MODULE.v":118)
+NOTE  (EX0101) : Current top module is "uart_test"
+[5%] Running netlist conversion ...
+Running device independent optimization ...
+[10%] Optimizing Phase 0 completed
+[15%] Optimizing Phase 1 completed
+[25%] Optimizing Phase 2 completed
+Running inference ...
+[30%] Inferring Phase 0 completed
+[40%] Inferring Phase 1 completed
+[50%] Inferring Phase 2 completed
+[55%] Inferring Phase 3 completed
+Running technical mapping ...
+[60%] Tech-Mapping Phase 0 completed
+[65%] Tech-Mapping Phase 1 completed
+[75%] Tech-Mapping Phase 2 completed
+[80%] Tech-Mapping Phase 3 completed
+[90%] Tech-Mapping Phase 4 completed
+[95%] Generate netlist file "F:\Sipeed\Projects\MyUART\MyCopy\impl\gwsynthesis\MyUART.vg" completed
+[100%] Generate report file "F:\Sipeed\Projects\MyUART\MyCopy\impl\gwsynthesis\MyUART_syn.rpt.html" completed
+GowinSynthesis finish
